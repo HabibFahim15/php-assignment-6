@@ -1,8 +1,9 @@
 -- A question answer
--- Find 3rd second lowest salary from employee tableSELECT salary
+-- Find 3rd, second, lowest - salary from employee table
+SELECT salary
 FROM employee
 ORDER BY salary ASC
-LIMIT 1 OFFSET 2;
+LIMIT 3 OFFSET 0;
 
 -- B question answer
 -- Find second lowest salary from employee table using sub query
