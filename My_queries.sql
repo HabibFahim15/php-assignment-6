@@ -3,7 +3,7 @@
 SELECT salary
 FROM employee
 ORDER BY salary ASC
-LIMIT 3 OFFSET 0;
+LIMIT 3 OFFSET 1;
 
 -- B question answer
 -- Find second lowest salary from employee table using sub query
